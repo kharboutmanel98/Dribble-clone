@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(235, 226, 226);
+    width: 1200px;
+    height: 800px;
+}
+.parent{
+    width: 1200px;
+    height: 800px;
+    border: 1px solid #fff;
+    background-color:rgb(244, 248, 244);
+    position: relative;
+    left: 350px;
+    right: 180px;
+    bottom: 20px;
+    top: 20px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+.parent .Dream{
+    width: 50%;
+    height: 800px;
+    background-color: blue;
+    float: right;
+   
+    
+}
+.parent .Dream .make{
+    width: 550px;
+    padding: 0px 1px;
+    text-align: center;
+    color: #fff;
+    
+}
+.parent .Dream .make i{
+    font-size: 40px;
+    position: relative; 
+    right: 200px; 
+    top: 190px; 
+}
+.parent .Dream .make h1{
+  font-size: 100px;
+  margin-top: 150px;
+  padding-left: 50px;
+ 
+}
+.parent .Dream .cite{
+    font-size: 19px;
+    color: #fff;
+    position: relative;
+    left: 150px;
+    top:50px;
+    word-spacing: 10px;
+  
+    
+}
+.parent .Dream .auteur h3{
+    font-size: 23px; 
+    position: relative; 
+    top:160px;
+    left: 250px;
+}
+.parent .auteur p{
+    font-size: 20px;
+    position: relative;
+    top:160px;
+    left: 255px;
+    line-height: 30px;
+}
+.parent .welcome{
+    width: 50%;
+    height: 800px;
+}
+.welcome .welcome-content .login{
+    padding-top: 40px ;
+    margin-left: 80px;
+    
+}
+.welcome .welcome-content .login p{
+    font-size: 30px;
+}
+.welcome .welcome-content .login a{
+    text-decoration: none;
+    color: rgb(111, 111, 212);
+}
+.welcome .welcome-content .login a:hover{
+    color: aqua;
+}
+.welcome .welcome-content .AOT{
+    padding-top: 90px ;
+    margin-left: 80px; 
+}
+.welcome .welcome-content .AOT h1{
+    font-size: 60px;
+    position: relative;
+    right: 10px;  
+}
+.welcome .welcome-content .AOT p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.welcome .welcome-content .form{
+    padding-top: 40px ;
+    margin-left: 80px;   
+}
+.welcome .welcome-content .form input{
+    width: 240px;
+    height: 45px;
+    border-top: 1px solid #fff;
+    border-radius: 9px;
+   
+}
+.welcome .welcome-content .form .button {
+    border: none;
+    background-color: rgb(16, 16, 219);
+    border-radius: 10px solid #fff;
+    width: 300px;
+    position: relative;
+    left: 65px;
+    top: 10px;
+
+      }
+      .welcome .welcome-content .form .button:hover {
+        color: aqua;
+      }
+
+.welcome .welcome-content .title-social{
+    padding-top: 30px ;
+    margin-left: 80px;  
+}
+.welcome .welcome-content .title-social p{
+    position: relative;
+    left: 160px;
+    top: 10px;   
+}
+
+.welcome .welcome-content .title-social ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 30px;
+ margin-top: 10px;
+}
+.welcome .welcome-content .title-social ul li i{
+   width: 90px; 
+   text-align: center;
+ 
+   
+}
+.welcome .welcome-content .title-social .fcb{
+    color: blue;
+    border: 1px solid rgb(202, 200, 200) ; 
+    position: relative;
+    right: 50px;
+    top: 30px;  
+}
+.welcome .welcome-content .title-social .gg{
+    color: green;
+    border: 1px solid rgb(202, 200, 200);
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+.welcome .welcome-content .title-social .app {
+    border: 1px solid rgb(202, 200, 200);
+    position: relative;
+    top: 30px;
+    right: 10px;  
+}
+.app i{
+    color: black;
+   
+}
+.app i:hover{
+    color: aqua;
+}
+.gg i:hover{
+    color: aqua;
+}
+.fcb i:hover{
+    color: aqua;
+}
