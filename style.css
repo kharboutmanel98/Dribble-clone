@@ -5,29 +5,33 @@
 
 body{
     background-color: rgb(235, 226, 226);
-    width: 1200px;
-    height: 800px;
+  
+   
 }
 .parent{
     width: 1200px;
-    height: 800px;
+    height: 900px;
     border: 1px solid #fff;
     background-color:rgb(244, 248, 244);
-    position: relative;
-    left: 350px;
-    right: 180px;
-    bottom: 20px;
-    top: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -400px;
+    margin-left: -600px;
     border-radius: 15px;
     border: 2px solid #fff;
+  
 }
 .parent .Dream{
     width: 50%;
-    height: 800px;
+    height: 900px;
     background-color: blue;
     float: right;
    
     
+}
+.parent .Dream-content{
+
 }
 .parent .Dream .make{
     width: 550px;
@@ -61,22 +65,25 @@ body{
 .parent .Dream .auteur h3{
     font-size: 23px; 
     position: relative; 
-    top:160px;
+    top:120px;
     left: 250px;
 }
 .parent .auteur p{
     font-size: 20px;
     position: relative;
-    top:160px;
+    top:120px;
     left: 255px;
     line-height: 30px;
 }
 .parent .welcome{
     width: 50%;
-    height: 800px;
+    height: 900px;
+}
+
+.parent .welcome .welcome-content{
+    height: 250px;
 }
 .welcome .welcome-content .login{
-    padding-top: 40px ;
     margin-left: 80px;
     
 }
@@ -129,20 +136,20 @@ body{
       }
 
 .welcome .welcome-content .title-social{
-    padding-top: 30px ;
+    padding-top: 5px ;
     margin-left: 80px;  
 }
 .welcome .welcome-content .title-social p{
     position: relative;
     left: 160px;
-    top: 10px;   
+    top: 20px;   
 }
 
 .welcome .welcome-content .title-social ul li{
  list-style: none;
  display: inline-block;
  padding: 30px;
- margin-top: 10px;
+ margin-top: 5px;
 }
 .welcome .welcome-content .title-social ul li i{
    width: 90px; 
